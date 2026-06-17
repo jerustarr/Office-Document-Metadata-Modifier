@@ -29,5 +29,12 @@ python set_docx_metadata.py /path/to/file.docx \
   --totaltime 42 \
   --setfs
 ```
-## Xfiles usage common commands 
-tbc 
+## exifTool usage common commands 
+*For file security reasons I use VM Installation, however host installation can be done for convenience" 
+- Download the preconfigured exifTools package from the official website: https://exiftool.org/
+- ensure the files you want to run the tool on is in the same directory as Exiftool
+- In Windows VM, type
+  ```bash
+  cd exifTool
+  exiftool mydocument.docx
+  ```
