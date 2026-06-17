@@ -26,7 +26,7 @@ def parse_args(args):
     return out
 
 if not p:
-    print("/Users/jerushawatson/Downloads/asia (1).docx")
+    print("/Users/author/Downloads/document.docx")
     sys.exit(1)
 
 opts = parse_args(args)
